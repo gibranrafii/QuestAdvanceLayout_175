@@ -36,13 +36,24 @@ fun ActivitasPertama(modifier: Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = stringResource(id = R.string.prodi),
+            text = stringResource(id=R.string.prodi),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = stringResource(id = R.string.univ),
+            text = stringResource(id=R.string.univ),
             fontSize = 18.sp
         )
+        Spacer(modifier = Modifier.height(height=25.dp))
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.DarkGray
+            )
+        ) {
+
+        }
     }
 }
