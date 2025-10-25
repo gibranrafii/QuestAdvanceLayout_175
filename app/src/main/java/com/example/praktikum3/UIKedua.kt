@@ -53,5 +53,6 @@ fun TugasPraktikum (modifier: Modifier){
                 .size(size = 120.dp)
                 .clip(CircleShape)
         )
+        Spacer(modifier = Modifier.height(height = 12.dp))
     }
 }
