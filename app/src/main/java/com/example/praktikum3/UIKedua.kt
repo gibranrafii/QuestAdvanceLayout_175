@@ -71,6 +71,19 @@ fun TugasPraktikum (modifier: Modifier){
 // Fungsi untuk icon logo sosmed
 @Composable
 fun SocialIcon(iconRes: Int) {
-
+    Card(
+        shape = CircleShape,
+        colors = CardDefaults.cardColors(containerColor = Color(color = 0xFF1E1E1E)),
+        modifier = Modifier.size(36.dp)
+    ) {
+        Image(
+            painter = painterResource(id = iconRes),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .fillMaxSize()
+                .clip(CircleShape)
+        )
+    }
 }
 
