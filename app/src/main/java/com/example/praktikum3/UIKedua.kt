@@ -38,6 +38,14 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
-fun TugasPraktikum (modifier: Modifier) {
+fun TugasPraktikum (modifier: Modifier){
+    Column (
+        modifier = androidx.compose.ui.Modifier
+            .background(color = Color.Black)
+            .padding(top = 60.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
 
+    }
 }
