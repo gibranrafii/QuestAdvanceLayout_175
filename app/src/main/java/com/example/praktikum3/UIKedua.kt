@@ -65,6 +65,7 @@ fun TugasPraktikum (modifier: Modifier){
             SocialIcon(iconRes = R.drawable.github)
             SocialIcon(iconRes = R.drawable.linkedin)
         }
+        Spacer(modifier = Modifier.height(height = 16.dp))
     }
 }
 
