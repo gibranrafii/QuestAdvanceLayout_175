@@ -80,6 +80,14 @@ fun TugasPraktikum (modifier: Modifier){
         )
 
         Spacer(modifier = Modifier.height(height = 8.dp))
+
+        Text(
+            text = "Saya adalah Mahasiswa Teknologi Informasi UMY",
+            color = Color.White,
+            fontSize = 14.sp,
+            textAlign = TextAlign.Center
+        )
+        Spacer(modifier = Modifier.height(32.dp))
     }
 }
 
