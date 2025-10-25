@@ -66,6 +66,13 @@ fun TugasPraktikum (modifier: Modifier){
             SocialIcon(iconRes = R.drawable.linkedin)
         }
         Spacer(modifier = Modifier.height(height = 16.dp))
+
+        Text(
+            text = "Gibran Rafi Pratama",
+            color = Color.White,
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 
