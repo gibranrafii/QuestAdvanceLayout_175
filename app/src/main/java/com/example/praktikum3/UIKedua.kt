@@ -88,6 +88,13 @@ fun TugasPraktikum (modifier: Modifier){
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(32.dp))
+
+        CardMenuItem(iconRes = R.drawable.privacy, title = "Privacy")
+        Spacer(modifier = Modifier.height(height = 12.dp))
+        CardMenuItem(iconRes = R.drawable.transaksi, title = "Riwayat Transaksi")
+        Spacer(modifier = Modifier.height(height = 12.dp))
+        CardMenuItem(iconRes = R.drawable.pengaturan, title = "Pengaturan")
+        Spacer(modifier = Modifier.height(height = 130.dp))
     }
 }
 
