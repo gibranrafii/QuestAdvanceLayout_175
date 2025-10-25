@@ -95,6 +95,12 @@ fun TugasPraktikum (modifier: Modifier){
         Spacer(modifier = Modifier.height(height = 12.dp))
         CardMenuItem(iconRes = R.drawable.pengaturan, title = "Pengaturan")
         Spacer(modifier = Modifier.height(height = 130.dp))
+
+        Text(
+            text = stringResource(id = R.string.copy),
+            fontSize = 12.sp,
+            color = Color.White
+        )
     }
 }
 
