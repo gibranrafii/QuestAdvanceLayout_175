@@ -67,3 +67,10 @@ fun TugasPraktikum (modifier: Modifier){
         }
     }
 }
+
+// Fungsi untuk icon logo sosmed
+@Composable
+fun SocialIcon(iconRes: Int) {
+
+}
+
