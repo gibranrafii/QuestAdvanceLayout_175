@@ -60,7 +60,10 @@ fun TugasPraktikum (modifier: Modifier){
             horizontalArrangement = Arrangement.spacedBy(space = 12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-
+            SocialIcon(iconRes = R.drawable.facebook)
+            SocialIcon(iconRes = R.drawable.instagram)
+            SocialIcon(iconRes = R.drawable.github)
+            SocialIcon(iconRes = R.drawable.linkedin)
         }
     }
 }
