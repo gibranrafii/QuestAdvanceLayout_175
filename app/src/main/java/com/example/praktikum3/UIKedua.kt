@@ -46,6 +46,12 @@ fun TugasPraktikum (modifier: Modifier){
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-
+        Image(
+            painter = painterResource(id = R.drawable.gibb),
+            contentDescription = "Profile Picture",
+            modifier = Modifier
+                .size(size = 120.dp)
+                .clip(CircleShape)
+        )
     }
 }
