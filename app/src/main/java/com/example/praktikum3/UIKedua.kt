@@ -73,6 +73,13 @@ fun TugasPraktikum (modifier: Modifier){
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = "@gibranrafii",
+            color = Color.Gray,
+            fontSize = 14.sp
+        )
+
+        Spacer(modifier = Modifier.height(height = 8.dp))
     }
 }
 
