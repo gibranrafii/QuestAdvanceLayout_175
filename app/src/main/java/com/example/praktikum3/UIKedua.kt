@@ -54,5 +54,13 @@ fun TugasPraktikum (modifier: Modifier){
                 .clip(CircleShape)
         )
         Spacer(modifier = Modifier.height(height = 12.dp))
+        Row (
+            modifier = Modifier
+                .padding(vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(space = 12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+
+        }
     }
 }
