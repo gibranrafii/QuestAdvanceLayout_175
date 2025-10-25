@@ -117,3 +117,32 @@ fun SocialIcon(iconRes: Int) {
     }
 }
 
+@Composable
+fun CardMenuItem(iconRes: Int, title: String) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(height = 60.dp),
+        shape = RoundedCornerShape(size = 16.dp),
+        colors = CardDefaults.cardColors(containerColor = Color(color = 0xFF2A2A2A))
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(id = iconRes),
+                contentDescription = null,
+                modifier = Modifier.size(size = 24.dp)
+            )
+            Spacer(modifier = Modifier.width(width = 16.dp))
+            Text(
+                text = title,
+                color = Color.White,
+                style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Medium)
+            )
+        }
+    }
+}
